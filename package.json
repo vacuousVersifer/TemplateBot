@@ -1,0 +1,44 @@
+{
+  "name": "templatebot",
+  "description": "Discord.js template bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vacuousVersifer/TemplateBot.git"
+  },
+  "keywords": [
+    "Discord.js",
+    "bot",
+    "frog"
+  ],
+  "author": "vacuousVersifer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vacuousVersifer/TemplateBot/issues"
+  },
+  "homepage": "https://github.com/vacuousVersifer/TemplateBot",
+  "dependencies": {
+    "@vacuousversifer/discord-big-letterifier": "^1.0.0",
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "github:discordjs/Commando",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node": "^16.0.0",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  },
+  "throttle": 5000,
+  "engines": {
+    "node": "v14.15.5",
+    "npm": "7.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0"
+  }
+}
