@@ -1,12 +1,12 @@
 # TemplateBot
 
-A simple bot template for the vacuous bot suite
+A very simple bot for discord. Should be expanded to do other things
 
-# Setup
+## Setup
 - Put `PREFIX` and `TOKEN` into `.env`
 - Uncomment `.env` and `.eslintrc.json` in `.gitignore`
 - Run `npm i`
 - Run `node dbInit`
 
-# Running
+## Running
 Simply run `node .` or `npm start`!
